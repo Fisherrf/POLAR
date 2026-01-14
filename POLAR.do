@@ -1200,7 +1200,7 @@ order ID tvar treat first_enrol_q q q_dead sex post_code age
             *  All models DiD
             **************************
 			
-------------------------------------------------------
+-------------------------------------------------------------
 * 0. NOTES on DiD code
 *------------------------------------------------------------
 *1) for the unmatched spec, we run both "raw" and "LN" models
@@ -1400,4 +1400,5 @@ su prog_duration_all if treated ==1, de
 su prog_duration_all if treated ==1 & enrolled_1b_SC !=., de
 su prog_duration_all if treated ==1 & enrolled_1b_EACH !=., de			
 			
+
 			
