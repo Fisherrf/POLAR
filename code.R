@@ -1,5 +1,4 @@
 # --- 1. SETUP: LOAD LIBRARIES ---
-# Install packages if you don't have them
 # install.packages(c("tidyverse", "lubridate", "readxl", "arrow", "didm"))
 
 library(tidyverse) # Includes dplyr, readr, tidyr, and more
